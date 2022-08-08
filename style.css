@@ -3,7 +3,13 @@ body {
     
    }
 #welcome {
-    height:400px;
-    background-image: url('assets/ship-at-sea.jpg');
+    height:600px;
+    background-image: url('acropole-768x512.jpg');
     background-size: cover;
+    justify-content: center;
+   }
+
+.flex-container {
+    display:flex;
+    justify-content: space-around;
    }
