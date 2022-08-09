@@ -7,6 +7,7 @@ body {
     background-image: url('acropole-768x512.jpg');
     background-size: cover;
     justify-content: center;
+    text-align: center;
    }
 
 .glitchedAnim, /* titre couleur*/
@@ -166,3 +167,6 @@ ul { /*menu*/
 ul li {
     list-style: none;/*supprimer les points*/
   }
+.glitche-bloc{
+    text-align: centergit add;
+}
