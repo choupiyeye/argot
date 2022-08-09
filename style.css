@@ -9,8 +9,8 @@ body {
     justify-content: center;
    }
 
-   .glitchedAnim,
-   .invisible-text {
+.glitchedAnim, /* titre couleur*/
+.invisible-text {
      font-size: 100px;
      font-weight: 400;
      line-height: 1.1;
@@ -18,15 +18,16 @@ body {
      align-items: center;
      text-align: center;
    }
-   .glitchedAnim {
+.glitchedAnim {
      position: absolute;
      top: 0;
      opacity: 0.9;
    }
-   .invisible-text {
+.invisible-text {
      visibility: hidden;
    }
-   .glitchedAnim:nth-child(2) {
+.glitchedAnim:nth-child(2) 
+   {
      color: #f03e3e;
      animation: skewAnim 3s infinite;
    }
@@ -43,7 +44,7 @@ body {
      color: #f1f1f1;
      font-size: 20px;
    }
-   @keyframes glitchAnim1 {
+@keyframes glitchAnim1 {
      7% {
        transform: none;
      }
@@ -84,7 +85,7 @@ body {
        transform: none;
      }
    }
-   @keyframes glitchAnim2 {
+@keyframes glitchAnim2 {
      7% {
        transform: none;
      }
@@ -125,7 +126,7 @@ body {
        transform: none;
      }
    }
-   @keyframes skewAnim {
+@keyframes skewAnim {
      20% {
        transform: none;
      }
@@ -148,3 +149,20 @@ body {
        transform: none;
      }
    }
+ul { /*menu*/
+    display: flex;
+        border: 1px solid rgb(8, 8, 8);
+        box-shadow: 6px 6px 0px black;
+     
+        display: flex;
+      
+        background: #011603;
+       
+        justify-content: space-around;
+        padding: 12px;
+      }
+  
+  
+ul li {
+    list-style: none;/*supprimer les points*/
+  }
