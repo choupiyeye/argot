@@ -2,13 +2,14 @@ body {
     background-color: lightgoldenrodyellow;
     
    }
-#welcome {
+
+.welcome {
     height:600px;
     background-image: url('acropole-768x512.jpg');
-    background-size: cover;
-    justify-content: center;
-    text-align: center;
-   }
+    background-size: 1920px;
+    /*justify-content: center;
+    text-align: center;*/
+   } 
 
 .glitchedAnim, /* titre couleur*/
 .invisible-text {
@@ -153,9 +154,9 @@ body {
 ul { /*menu*/
     display: flex;
         border: 1px solid rgb(8, 8, 8);
-        box-shadow: 6px 6px 0px black;
+        /*box-shadow: 6px 6px 0px black;*/
      
-        display: flex;
+        
       
         background: #011603;
        
@@ -167,6 +168,11 @@ ul { /*menu*/
 ul li {
     list-style: none;/*supprimer les points*/
   }
-.glitche-bloc{
-    text-align: centergit add;
+.glitch-bloc p{
+  display: flex;
+   /* text-align: center;*/
+   
+}
+p{
+  display: flex;
 }
