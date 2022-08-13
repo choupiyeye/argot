@@ -10,7 +10,10 @@ body {
     /*justify-content: center;
     text-align: center;*/
    } 
-
+.container-title {
+  display: flex;
+  justify-content: center;
+}
 .glitchedAnim, /* titre couleur*/
 .invisible-text {
      font-size: 100px;
